@@ -6,9 +6,19 @@
     <title>Hello World</title>
     <style>
         body {
-            color: black; /* Make all text in the body black */
-            font-weight: bold; /* Make all text in the body bold */
-            text-align: center; /* Center all text in the body */
+            background-color: black; /* Make the background color black */
+            color: white; /* Make the text color white */
+            font-weight: bold; /* Make the text bold */
+            height: 100vh; /* Full height of the viewport */
+            display: flex;
+            justify-content: center; /* Center the content horizontally */
+            align-items: center; /* Center the content vertically */
+            text-align: center; /* Center text */
+            margin: 0; /* Remove default margin */
+        }
+        .container {
+            border: 2px solid white; /* White border around the content */
+            padding: 20px; /* Padding inside the box */
         }
         .red-bold-cursive {
             color: red;
@@ -18,7 +28,9 @@
     </style>
 </head>
 <body>
-    <h1 class="red-bold-cursive">Hello World!</h1>
-    <p>This is my first webpage hosted on GitHub Pages.</p>
+    <div class="container">
+        <h1 class="red-bold-cursive">Hello World!</h1>
+        <p>This is my first webpage hosted on GitHub Pages.</p>
+    </div>
 </body>
 </html>
